@@ -21,7 +21,7 @@ hs_err_pid*
 src.rar
 deployed/
 build.properties
-.idea/*
+out/
 vikatouch.iml
 serverdata/
 .settings/org.eclipse.jdt.ui.prefs

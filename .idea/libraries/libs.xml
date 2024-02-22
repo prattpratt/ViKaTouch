@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="https://nikita36078.github.io/J2ME_Docs/docs/nokiaapi2/" />
+      <root url="https://nikita36078.github.io/J2ME_Docs/docs/midp-2.0/" />
+      <root url="https://nikita36078.github.io/J2ME_Docs/docs/cldc-1.1/" />
+      <root url="https://nikita36078.github.io/J2ME_Docs/docs/jsr75/" />
+      <root url="https://nikita36078.github.io/J2ME_Docs/docs/jsr234-1_1_1-mrel-javadoc/" />
+      <root url="https://nikita36078.github.io/J2ME_Docs/docs/jsr75-pim/" />
+      <root url="https://nikita36078.github.io/J2ME_Docs/docs/jsr135/" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/libs" recursive="false" />
+  </library>
+</component>
