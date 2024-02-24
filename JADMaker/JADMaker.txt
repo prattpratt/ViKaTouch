@@ -1,0 +1,91 @@
+JADMaker for Nokia Java Games
+Version 1.1
+for Windows 9x/NT/2K/ME/XP
+http://www.geocities.com/mangokun/
+
+
+!!! You MUST put the files below together in the same folder.
+JADMaker.exe
+JADMaker.txt
+config.xml (will be created if not found)
+unzip32.dll
+
+
+What
+
+JADMaker creates a JAD file for your .JAR Java Games, so that you can install them to your mobile phone.
+
+
+Features:
+- simple DRAG and DROP operations!
+- allows batch processing of JAR files
+- enabling Explorer Context-Menu extension allows you to generate a JAD file quickly
+- keep the program 'Always on Top' of all other windows (Useful)
+- keep your program settings (in a XML file)
+
+
+Why
+
+Interest in Java Games for Nokia mobile phones.
+Some of the Java Games for Nokia mobile phones does not comes with a .jad file, so I searched the net for a JAD generator.
+Came across a lousy program called 'JADgen', so I decided to make one that is better then it.
+
+
+How to use this program?
+
+There are 3 ways.
+1) Run JADMaker. Drag and drop a JAR file onto the window. JAD generated. That's it!
+
+2) Drag and drop a JAR file onto the JADMaker.exe icon in a Windows Explorer window.
+This means you can also create a desktop shortcut to JADMaker.exe, and then drop JAR file(s) onto the shortcut.
+
+3) Once the "Make JAD" Explorer Context-Menu extension is enabled (by checking it in the program), 
+you can right click on any JAR file(s) for a quick "Make JAD".
+
+Remember that you can process multiple JAR files at one time (=batch procesing).
+Just select multiple files, and use any of the ways above (this is really the icing on the cake!).
+
+With so many ways to get your JAD file, you are spoilt for choice!!!
+
+
+Installation
+
+No special installation is required on Windows.
+JADMaker can be put in any folder (together with other required files).
+
+You may make a shortcut to it on your Desktop.
+
+
+Troubleshooting
+
+* When I try to run JADMaker, it dies with the following error: Component 'MSCOMCTL.OCX' or one of its dependencies not correctly registered: a file is missing or invalid 
+
+MSCOMCTL.OCX is a support file required that is already installed on most home computers.
+If you encounter this error, you will need to install the 'Visual Basic 6.0 Runtime Module'.
+
+* When I try to run JADMaker, it dies with the following error: The file 'MSVBVM60.DLL' cannot be found... 
+
+MSVBVM60.DLL is a support file required to run any Visual Basic 6 program.
+If you encounter this error, you will need to install the 'Visual Basic 6.0 Runtime Module'.
+
+
+Visual Basic 6.0 Runtime Module
+Direct Download: http://download.microsoft.com/download/vb60pro/Redist/sp5/WIN98Me/EN-US/VBRun60sp5.exe
+File Details: http://www.microsoft.com/downloads/details.aspx?FamilyID=bf9a24f9-b5c5-48f4-8edd-cdf2d29a79d5&DisplayLang=en
+
+
+Version History
+
+1.1 (Sep 12, 2003)
+- Removed a serious bug in the program, that will cause extra lines in the JAD file
+
+
+Disclaimer
+This program is free. You may distribute it, but you may not charge money for it.
+
+
+Send suggestions and comments to: 
+mangokun@hotmail.com
+
+Programmed by Goh Mingkun using Visual Basic 6.0
+Last update on Fru, Sep 12, 2003

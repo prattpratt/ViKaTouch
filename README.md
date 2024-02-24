@@ -1,6 +1,42 @@
 # Vika Touch
 Vika Touch это клиент соц. сети "ВКонтакте" для смартфонов с сенсорным экраном и простых "звонилок" на Java ME платформе.
 
+## Setup
+
+1. Install [Oracle JDK 1.8 32-bit (x86)](https://www.oracle.com/cis/java/technologies/downloads/#java8).
+2. Install [Sun Java Wireless Toolkit (WTK) 2.5.2](https://www.oracle.com/java/technologies/java-archive-downloads-javame-downloads.html).
+3. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows).
+
+## Build & Run
+
+### IntelliJ IDEA
+
+1. Open the project folder in IDEA.
+2. Compile sources with javac (`Build => Build/Rebuild Project`).
+3. Run [preverify.bat](preverify.bat) to perform [J2ME class file preverification](https://docs.oracle.com/javame/dev-tools/jme-sdk-3.0-win/html-helpset/z400001e1296162.html).
+4. Package classes in a JAR file (`Build => Build Artifacts…`).
+5. Artifacts are located in `out/artifacts` folder.
+6. Generate JAD file using [JADMaker](JADMaker/JADMaker.exe) or manually.
+7. Run the app in WTK emulator clicking JAD file.
+
+### Sun WTK
+
+1. Open the project folder in WTK.
+2. Compile sources with javac (`Project => Build`)
+3. Run the app in WTK emulator (`Project => Run`).
+
+## Debug
+
+### WTK + IDEA
+
+1. Open the project folder in Sun WTK.
+2. Run the app in debug mode (`Project => Debug`).
+3. Open the project folder in IDEA.
+4. Create `Remote JVM Debug` configuration (`Run => Edit Configurations…`).
+5. Use the same remote debugging port in both WTK and IDEA.
+6. Run the created configuration (`Run => Debug…`).
+
+
 # Список дел
 <s>Глав. меню</s><br/>
 <s>Новости</s><br/>

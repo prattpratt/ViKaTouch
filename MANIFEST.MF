@@ -1,26 +1,23 @@
-Manifest-Version: 1.0
-VikaTouch-Edition: openbeta
+VikaTouch-Edition: release
 Nokia-MIDlet-Background-Event: run
-MIDlet-Version: 2.9.3
+MIDlet-Version: 2.9.12
 MIDlet-Info-URL: http://vikamobile.ru
+Nokia-UI-Enhancement: CanvasHasBackground,MusicKeysSupported,IgnoreProfilesBasedSoundMuting
+Manifest-Version: 1.0
 LGE-MIDlet-TargetLCD-Width: 480
-Nokia-MIDlet-UID-1: 0xA02033e9
-MicroEdition-Configuration: CLDC-1.1
-MIDlet-Name: Vika Touch
+MicroEdition-Configuration: CLDC-1.0
+Nokia-MIDlet-UID-1: 0xE02033e8
+Nokia-MIDlet-Block-Uninstall: true
+MIDlet-Name: ViKa Mobile
 FlipInsensitive: True
 Nokia-MIDlet-On-Screen-Keypad: no
-MIDlet-Vendor: nnproject
+MIDlet-Vendor: Ilya Vysotsky
 Progressive_Download: enabled
 MIDlet-Icon: vika256.png
+Nokia-MIDlet-Category: Application
 LGE-MIDlet-TargetLCD-Height: 800
-MIDlet-Touch-Support: True
-UseNativeCommands: false
-ReverseSoftkeys: true
-MIDlet-ScreenMode: ROTATE
-MIDlet-Landscape-Support: true
-MIDlet-Scaleup-Support: false
+MIDlet-1: ViKa Mobile,/vika256.png,ru.nnproject.vikatouch.VikaTouchApp
 MicroEdition-Profile: MIDP-2.0
+MIDlet-Jar-URL: vikamobile.jar
 MIDlet-Permissions: javax.microedition.io.Connector.http
 Nokia-MIDlet-No-Exit: true
-MIDlet-1: Vika Touch,/vika256.png,ru.nnproject.vikatouch.VikaTouchApp
-
